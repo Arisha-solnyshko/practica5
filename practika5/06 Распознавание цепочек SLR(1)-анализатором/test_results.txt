@@ -1,0 +1,11 @@
+№	Цепочка	Ожидаемый результат	Фактический результат JFLAP
+1	a=0b101	Accepted	String accepted
+2	b=25+f	Accepted	String accepted
+3	c=-a*(0b10+b)	Accepted	String accepted
+4	a=1;b=a+10	Accepted	String accepted
+5	f=11/1-0	Accepted	String accepted
+6	g=1	Rejected	String rejected
+7	a=0b102	Rejected	String rejected
+8	a=1+	Rejected	String rejected
+
+Итог: 8/8 ожидаемых результатов совпали.

@@ -1,0 +1,11 @@
+№	Цепочка	Ожидаемый результат	Фактический результат JFLAP
+1	a=0	Accepted	String successfully parsed!
+2	b=101	Accepted	String successfully parsed!
+3	c=-a+10	Accepted	String successfully parsed!
+4	d=(a+b)*11	Accepted	String successfully parsed!
+5	f=--1/10	Accepted	String successfully parsed!
+6	g=1	Rejected	String rejected.
+7	a=102	Rejected	String rejected.
+8	a=b+	Rejected	String rejected.
+
+Итог: 8/8 ожидаемых результатов совпали.

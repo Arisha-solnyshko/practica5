@@ -1,0 +1,21 @@
+№	Цепочка	Ожидалось	Результат
+1	a=0b101	Accepted	Accepted	OK
+2	ab=0o17+10	Accepted	Accepted	OK
+3	x=-0b1*(y+2)	Accepted	Accepted	OK
+4	a=1;b=0o7;c=a+b	Accepted	Accepted	OK
+5	zz=(0b10+0o3)/5	Accepted	Accepted	OK
+6	q=--10	Accepted	Accepted	OK
+7	abc=1	Rejected	Rejected	OK
+  Rejected: имя переменной 'abc' должно содержать 1–2 символа
+8	a=0b102	Rejected	Rejected	OK
+  Rejected: ожидался токен EOF, найдено '2' в позиции 6
+9	a=0o8	Rejected	Rejected	OK
+  Rejected: ожидался токен EOF, найдено 'o' в позиции 3
+10	a=(1+2	Rejected	Rejected	OK
+  Rejected: ожидался символ ')', найдено '$' в позиции 6
+11	a=1+	Rejected	Rejected	OK
+  Rejected: ожидались скобки, имя переменной или константа, найдено '$' в позиции 4
+12	a=;b=2	Rejected	Rejected	OK
+  Rejected: ожидались скобки, имя переменной или константа, найдено ';' в позиции 2
+
+Итог: 12/12 тестов пройдено.
